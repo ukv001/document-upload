@@ -1,0 +1,404 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< dk.kvistborg.upload:document-upload >-----------------
+[INFO] Building document-upload 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:prepare-agent (default) @ document-upload ---
+[INFO] argLine set to -javaagent:/Users/ukv001/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/Users/ukv001/repos/document-upload/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ document-upload ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ document-upload ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ document-upload ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ document-upload ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ document-upload ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- native-maven-plugin:0.9.13:test (test-native) @ document-upload ---
+[INFO] Skipping native-image tests (parameter 'skipTests' or 'skipNativeTests' is true).
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.8:report (report) @ document-upload ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:3.0.0-M4:aot-generate (aot-generate) @ document-upload ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v3.0.0-M4)
+
+2022-09-15T14:51:51.439+02:00  INFO 70776 --- [           main] d.k.upload.DocumentUploadApplication     : Starting DocumentUploadApplication using Java 17.0.4 on MMDC02Z7AZ2LVCF with PID 70776 (/Users/ukv001/repos/document-upload/target/classes started by ukv001 in /Users/ukv001/repos/document-upload)
+2022-09-15T14:51:51.443+02:00  INFO 70776 --- [           main] d.k.upload.DocumentUploadApplication     : No active profile set, falling back to 1 default profile: "default"
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ document-upload ---
+[INFO] Building jar: /Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:3.0.0-M4:repackage (repackage) @ document-upload ---
+[INFO] Attaching repackaged archive /Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT-exec.jar with classifier exec
+[INFO] 
+[INFO] --- native-maven-plugin:0.9.13:build (build-native) @ document-upload ---
+[INFO] Found GraalVM installation from JAVA_HOME variable.
+[INFO] ImageClasspath Entry: dk.kvistborg.upload:document-upload:jar:1.0.0-SNAPSHOT (file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-codec-http:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar)
+[WARNING] jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http/native-image.properties does not match recommended META-INF/native-image/${groupId}/${artifactId}/native-image.properties layout.
+[INFO] ImageClasspath Entry: org.apache.logging.log4j:log4j-to-slf4j:jar:2.18.0:compile (file:///Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.18.0/log4j-to-slf4j-2.18.0.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-buffer:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar)
+[WARNING] jar:file:///Users/ukv001/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar!/META-INF/native-image/io.netty/buffer/native-image.properties does not match recommended META-INF/native-image/${groupId}/${artifactId}/native-image.properties layout.
+[INFO] ImageClasspath Entry: io.netty:netty-handler:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar)
+[WARNING] jar:file:///Users/ukv001/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar!/META-INF/native-image/io.netty/handler/native-image.properties does not match recommended META-INF/native-image/${groupId}/${artifactId}/native-image.properties layout.
+[INFO] ImageClasspath Entry: io.netty:netty-resolver-dns-classes-macos:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: org.slf4j:slf4j-api:jar:1.7.36:compile (file:///Users/ukv001/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar)
+[INFO] ImageClasspath Entry: io.micrometer:micrometer-commons:jar:1.10.0-M3:compile (file:///Users/ukv001/.m2/repository/io/micrometer/micrometer-commons/1.10.0-M3/micrometer-commons-1.10.0-M3.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-starter-logging:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.0-M4/spring-boot-starter-logging-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-common:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar)
+[WARNING] jar:file:///Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar!/META-INF/native-image/io.netty/common/native-image.properties does not match recommended META-INF/native-image/${groupId}/${artifactId}/native-image.properties layout.
+[INFO] ImageClasspath Entry: io.projectreactor.netty:reactor-netty-http:jar:1.1.0-M4:compile (file:///Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.1.0-M4/reactor-netty-http-1.1.0-M4.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-transport-classes-epoll:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: org.apache.logging.log4j:log4j-api:jar:2.18.0:compile (file:///Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-starter-reactor-netty:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.0.0-M4/spring-boot-starter-reactor-netty-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-aop:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-aop/6.0.0-M5/spring-aop-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot/3.0.0-M4/spring-boot-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.13.3:compile (file:///Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-codec:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-starter-json:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.0-M4/spring-boot-starter-json-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: ch.qos.logback:logback-core:jar:1.2.11:compile (file:///Users/ukv001/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar)
+[INFO] ImageClasspath Entry: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.13.3:compile (file:///Users/ukv001/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar)
+[INFO] ImageClasspath Entry: io.projectreactor.netty:reactor-netty-core:jar:1.1.0-M4:compile (file:///Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.1.0-M4/reactor-netty-core-1.1.0-M4.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-codec-dns:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-codec-dns/4.1.79.Final/netty-codec-dns-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-expression:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-expression/6.0.0-M5/spring-expression-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: io.projectreactor:reactor-core:jar:3.5.0-M4:compile (file:///Users/ukv001/.m2/repository/io/projectreactor/reactor-core/3.5.0-M4/reactor-core-3.5.0-M4.jar)
+[INFO] ImageClasspath Entry: io.micrometer:micrometer-observation:jar:1.10.0-M3:compile (file:///Users/ukv001/.m2/repository/io/micrometer/micrometer-observation/1.10.0-M3/micrometer-observation-1.10.0-M3.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-jcl:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-jcl/6.0.0-M5/spring-jcl-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: ch.qos.logback:logback-classic:jar:1.2.11:compile (file:///Users/ukv001/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar)
+[INFO] [graalvm reachability metadata repository for ch.qos.logback:logback-classic:1.2.11]: Configuration directory is ch.qos.logback/logback-classic/1.2.11
+[INFO] ImageClasspath Entry: io.netty:netty-handler-proxy:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: com.fasterxml.jackson.core:jackson-core:jar:2.13.3:compile (file:///Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-resolver:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-transport:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar)
+[WARNING] jar:file:///Users/ukv001/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar!/META-INF/native-image/io.netty/transport/native-image.properties does not match recommended META-INF/native-image/${groupId}/${artifactId}/native-image.properties layout.
+[INFO] [graalvm reachability metadata repository for io.netty:netty-transport:4.1.79.Final]: Configuration directory not found. Trying latest version.
+[INFO] [graalvm reachability metadata repository for io.netty:netty-transport:4.1.79.Final]: Configuration directory is io.netty/netty-transport/4.1.76.Final
+[INFO] ImageClasspath Entry: io.netty:netty-codec-socks:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-codec-socks/4.1.79.Final/netty-codec-socks-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-context:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-context/6.0.0-M5/spring-context-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-transport-native-unix-common:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-core:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: io.micrometer:micrometer-core:jar:1.10.0-M3:compile (file:///Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.0.0-M4/spring-boot-actuator-autoconfigure-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.13.3:compile (file:///Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-resolver-dns:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar)
+[WARNING] jar:file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar!/META-INF/native-image/io.netty/resolver-dns/native-image.properties does not match recommended META-INF/native-image/${groupId}/${artifactId}/native-image.properties layout.
+[INFO] ImageClasspath Entry: io.netty:netty-resolver-dns-native-macos:jar:osx-x86_64:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-starter-actuator:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.0.0-M4/spring-boot-starter-actuator-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: jakarta.annotation:jakarta.annotation-api:jar:2.0.0:compile (file:///Users/ukv001/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar)
+[INFO] ImageClasspath Entry: com.fasterxml.jackson.core:jackson-databind:jar:2.13.3:compile (file:///Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-autoconfigure:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.0-M4/spring-boot-autoconfigure-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-starter-webflux:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.0.0-M4/spring-boot-starter-webflux-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: org.slf4j:jul-to-slf4j:jar:1.7.36:compile (file:///Users/ukv001/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-actuator:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator/3.0.0-M4/spring-boot-actuator-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: io.micrometer:context-propagation:jar:1.0.0-M3:compile (file:///Users/ukv001/.m2/repository/io/micrometer/context-propagation/1.0.0-M3/context-propagation-1.0.0-M3.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-codec-http2:jar:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar)
+[WARNING] jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http2/native-image.properties does not match recommended META-INF/native-image/${groupId}/${artifactId}/native-image.properties layout.
+[INFO] ImageClasspath Entry: org.projectlombok:lombok:jar:1.18.24:compile (file:///Users/ukv001/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-webflux:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-webflux/6.0.0-M5/spring-webflux-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: org.springframework.boot:spring-boot-starter:jar:3.0.0-M4:compile (file:///Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.0-M4/spring-boot-starter-3.0.0-M4.jar)
+[INFO] ImageClasspath Entry: org.yaml:snakeyaml:jar:1.30:compile (file:///Users/ukv001/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar)
+[INFO] ImageClasspath Entry: io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.79.Final:compile (file:///Users/ukv001/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar)
+[INFO] ImageClasspath Entry: org.latencyutils:LatencyUtils:jar:2.0.3:runtime (file:///Users/ukv001/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-web:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-web/6.0.0-M5/spring-web-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: org.hdrhistogram:HdrHistogram:jar:2.1.12:compile (file:///Users/ukv001/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar)
+[INFO] [graalvm reachability metadata repository for org.hdrhistogram:HdrHistogram:2.1.12]: Configuration directory is org.hdrhistogram/HdrHistogram/2.1.12
+[INFO] ImageClasspath Entry: com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3:compile (file:///Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar)
+[INFO] ImageClasspath Entry: org.springframework:spring-beans:jar:6.0.0-M5:compile (file:///Users/ukv001/.m2/repository/org/springframework/spring-beans/6.0.0-M5/spring-beans-6.0.0-M5.jar)
+[INFO] ImageClasspath Entry: org.reactivestreams:reactive-streams:jar:1.0.4:compile (file:///Users/ukv001/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar)
+[INFO] Executing: /Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/bin/native-image -cp /Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.18.0/log4j-to-slf4j-2.18.0.jar:/Users/ukv001/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-commons/1.10.0-M3/micrometer-commons-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.0-M4/spring-boot-starter-logging-3.0.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.1.0-M4/reactor-netty-http-1.1.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.0.0-M4/spring-boot-starter-reactor-netty-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/springframework/spring-aop/6.0.0-M5/spring-aop-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot/3.0.0-M4/spring-boot-3.0.0-M4.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.0-M4/spring-boot-starter-json-3.0.0-M4.jar:/Users/ukv001/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar:/Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.1.0-M4/reactor-netty-core-1.1.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-dns/4.1.79.Final/netty-codec-dns-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-expression/6.0.0-M5/spring-expression-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/projectreactor/reactor-core/3.5.0-M4/reactor-core-3.5.0-M4.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-observation/1.10.0-M3/micrometer-observation-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-jcl/6.0.0-M5/spring-jcl-6.0.0-M5.jar:/Users/ukv001/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/Users/ukv001/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-socks/4.1.79.Final/netty-codec-socks-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-context/6.0.0-M5/spring-context-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.0.0-M4/spring-boot-actuator-autoconfigure-3.0.0-M4.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.0.0-M4/spring-boot-starter-actuator-3.0.0-M4.jar:/Users/ukv001/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.0-M4/spring-boot-autoconfigure-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.0.0-M4/spring-boot-starter-webflux-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator/3.0.0-M4/spring-boot-actuator-3.0.0-M4.jar:/Users/ukv001/.m2/repository/io/micrometer/context-propagation/1.0.0-M3/context-propagation-1.0.0-M3.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/ukv001/.m2/repository/org/springframework/spring-webflux/6.0.0-M5/spring-webflux-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.0-M4/spring-boot-starter-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar:/Users/ukv001/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-web/6.0.0-M5/spring-web-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-beans/6.0.0-M5/spring-beans-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar --no-fallback -H:Path=/Users/ukv001/repos/document-upload/target -H:Name=document-upload -H:ConfigurationFileDirectories=/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/org.hdrhistogram/HdrHistogram/2.1.12,/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/io.netty/netty-transport/4.1.76.Final,/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/ch.qos.logback/logback-classic/1.2.11 --initialize-at-build-time=ch.qos.logback.classic.Logger,ch.qos.logback.classic.Level,ch.qos.logback.core.spi.AppenderAttachableImpl,ch.qos.logback.core.status.InfoStatus,org.slf4j.LoggerFactory,org.slf4j.MDC,ch.qos.logback.core.CoreConstants,ch.qos.logback.core.util.Loader,org.slf4j.impl.StaticLoggerBinder,ch.qos.logback.core.util.StatusPrinter -H:+ReportExceptionStackTraces --trace-object-instantiation=java.net.Inet6Address --trace-object-instantiation=java.net.Inet4Address --native-image-info --verbose
+Apply jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/native-image.properties
+Apply jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/reflect-config.json
+Apply jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/resource-config.json
+Apply jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/proxy-config.json
+Apply jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar!/META-INF/native-image/io.netty/buffer/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar!/META-INF/native-image/io.netty/handler/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar!/META-INF/native-image/io.netty/common/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar!/META-INF/native-image/io.netty/transport/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-core/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar!/META-INF/native-image/io.micrometer/micrometer-core/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar!/META-INF/native-image/io.micrometer/micrometer-core/reflect-config.json
+Apply jar:file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar!/META-INF/native-image/io.netty/resolver-dns/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http2/native-image.properties
+Apply jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-web/6.0.0-M5/spring-web-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-web/native-image.properties
+Executing [
+/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/bin/java \
+-XX:+UseParallelGC \
+-XX:+UnlockExperimentalVMOptions \
+-XX:+EnableJVMCI \
+-Dtruffle.TrustAllTruffleRuntimeProviders=true \
+-Dtruffle.TruffleRuntime=com.oracle.truffle.api.impl.DefaultTruffleRuntime \
+-Dgraalvm.ForcePolyglotInvalid=true \
+-Dgraalvm.locatorDisabled=true \
+-Dsubstratevm.IgnoreGraalVersionCheck=true \
+--add-exports=java.base/com.sun.crypto.provider=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.access.foreign=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.event=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.loader=org.graalvm.nativeimage.builder,org.graalvm.truffle \
+--add-exports=java.base/jdk.internal.logger=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.misc=org.graalvm.nativeimage.builder,org.graalvm.nativeimage.objectfile \
+--add-exports=java.base/jdk.internal.module=jdk.internal.vm.compiler,org.graalvm.nativeimage.base,org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.org.objectweb.asm=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.perf=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.platform=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.ref=org.graalvm.nativeimage.builder,org.graalvm.nativeimage.objectfile \
+--add-exports=java.base/jdk.internal.reflect=org.graalvm.nativeimage.builder \
+--add-exports=java.base/jdk.internal.vm.annotation=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.invoke.util=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.net=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.nio.ch=org.graalvm.nativeimage.builder,org.graalvm.nativeimage.objectfile \
+--add-exports=java.base/sun.reflect.annotation=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.reflect.generics.factory=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.reflect.generics.reflectiveObjects=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.reflect.generics.repository=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.reflect.generics.scope=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.reflect.generics.tree=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.security.jca=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.security.provider=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.security.ssl=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.security.util=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.security.x509=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.text.spi=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.util.calendar=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.util.cldr=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.util.locale.provider=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.util.locale=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.util.resources=org.graalvm.nativeimage.builder \
+--add-exports=java.base/sun.util=org.graalvm.nativeimage.builder \
+--add-exports=java.desktop/sun.java2d.pipe=org.graalvm.nativeimage.builder \
+--add-exports=java.desktop/sun.java2d=org.graalvm.nativeimage.builder \
+--add-exports=java.management/com.sun.jmx.mbeanserver=org.graalvm.nativeimage.builder \
+--add-exports=java.management/sun.management=org.graalvm.nativeimage.builder,org.graalvm.nativeimage.pointsto \
+--add-exports=java.xml.crypto/org.jcp.xml.dsig.internal.dom=org.graalvm.nativeimage.builder \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.aarch64=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder,org.graalvm.nativeimage.objectfile \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.amd64=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder,org.graalvm.nativeimage.objectfile \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.code.site=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder,org.graalvm.nativeimage.llvm \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.code.stack=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.code=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder,org.graalvm.nativeimage.llvm,org.graalvm.nativeimage.objectfile,org.graalvm.nativeimage.pointsto \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.common=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder,org.graalvm.nativeimage.pointsto \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.hotspot.aarch64=jdk.internal.vm.compiler \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.hotspot.amd64=jdk.internal.vm.compiler \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.hotspot.riscv64=jdk.internal.vm.compiler \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.hotspot=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.meta=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder,org.graalvm.nativeimage.llvm,org.graalvm.nativeimage.objectfile,org.graalvm.nativeimage.pointsto \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.riscv64=jdk.internal.vm.compiler \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.runtime=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder,org.graalvm.nativeimage.pointsto \
+--add-exports=jdk.internal.vm.ci/jdk.vm.ci.services=jdk.internal.vm.compiler,org.graalvm.nativeimage.builder \
+--add-exports=jdk.jfr/jdk.jfr.events=org.graalvm.nativeimage.builder \
+--add-exports=jdk.jfr/jdk.jfr.internal.handlers=org.graalvm.nativeimage.builder \
+--add-exports=jdk.jfr/jdk.jfr.internal.jfc=org.graalvm.nativeimage.builder \
+--add-exports=jdk.jfr/jdk.jfr.internal=org.graalvm.nativeimage.builder \
+--add-exports=jdk.management/com.sun.management.internal=org.graalvm.nativeimage.builder \
+-XX:+UseJVMCINativeLibrary \
+-Xss10m \
+-Xms1g \
+-Xmx13743895344 \
+-Djava.awt.headless=true \
+-Dorg.graalvm.version=22.2.0 \
+-Dcom.oracle.graalvm.isaot=true \
+-Djava.system.class.loader=com.oracle.svm.hosted.NativeImageSystemClassLoader \
+-Xshare:off \
+-Djdk.internal.lambda.disableEagerInitialization=true \
+-Djdk.internal.lambda.eagerlyInitialize=false \
+-Djava.lang.invoke.InnerClassLambdaMetafactory.initializeLambdas=false \
+-agentlib:native-image-diagnostics-agent=o=java.net.Inet6Address,o=java.net.Inet4Address \
+-javaagent:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/svm.jar=o=java.net.Inet6Address,o=java.net.Inet4Address \
+--module-path \
+/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/truffle/truffle-api.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/llvm-wrapper-shadowed.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/svm.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/native-image-base.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/objectfile.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/javacpp-platform-specific-shadowed.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/llvm-platform-specific-shadowed.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/javacpp-shadowed.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/svm-llvm.jar:/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/builder/pointsto.jar \
+--module \
+org.graalvm.nativeimage.builder/com.oracle.svm.hosted.NativeImageGeneratorRunner \
+-imagecp \
+/Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.18.0/log4j-to-slf4j-2.18.0.jar:/Users/ukv001/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-commons/1.10.0-M3/micrometer-commons-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.0-M4/spring-boot-starter-logging-3.0.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.1.0-M4/reactor-netty-http-1.1.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.0.0-M4/spring-boot-starter-reactor-netty-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/springframework/spring-aop/6.0.0-M5/spring-aop-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot/3.0.0-M4/spring-boot-3.0.0-M4.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.0-M4/spring-boot-starter-json-3.0.0-M4.jar:/Users/ukv001/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar:/Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.1.0-M4/reactor-netty-core-1.1.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-dns/4.1.79.Final/netty-codec-dns-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-expression/6.0.0-M5/spring-expression-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/projectreactor/reactor-core/3.5.0-M4/reactor-core-3.5.0-M4.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-observation/1.10.0-M3/micrometer-observation-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-jcl/6.0.0-M5/spring-jcl-6.0.0-M5.jar:/Users/ukv001/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/Users/ukv001/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-socks/4.1.79.Final/netty-codec-socks-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-context/6.0.0-M5/spring-context-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.0.0-M4/spring-boot-actuator-autoconfigure-3.0.0-M4.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.0.0-M4/spring-boot-starter-actuator-3.0.0-M4.jar:/Users/ukv001/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.0-M4/spring-boot-autoconfigure-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.0.0-M4/spring-boot-starter-webflux-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator/3.0.0-M4/spring-boot-actuator-3.0.0-M4.jar:/Users/ukv001/.m2/repository/io/micrometer/context-propagation/1.0.0-M3/context-propagation-1.0.0-M3.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/ukv001/.m2/repository/org/springframework/spring-webflux/6.0.0-M5/spring-webflux-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.0-M4/spring-boot-starter-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar:/Users/ukv001/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-web/6.0.0-M5/spring-web-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-beans/6.0.0-M5/spring-beans-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar \
+-imagemp \
+/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/library-support.jar \
+-H:CLibraryPath=/Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/lib/svm/clibraries/darwin-amd64 \
+-H:Path=/Users/ukv001/repos/document-upload/target \
+'-H:Class@jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/native-image.properties=dk.kvistborg.upload.DocumentUploadApplication' \
+'-H:+ReportUnsupportedElementsAtRuntime@jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/native-image.properties' \
+'-H:FallbackThreshold@jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/native-image.properties=0' \
+'-H:+InstallExitHandlers@jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/native-image.properties' \
+'-H:ReflectionConfigurationResources@jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/reflect-config.json=META-INF/native-image/dk.kvistborg.upload/document-upload/reflect-config.json' \
+'-H:ResourceConfigurationResources@jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/resource-config.json=META-INF/native-image/dk.kvistborg.upload/document-upload/resource-config.json' \
+'-H:DynamicProxyConfigurationResources@jar:file:///Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar!/META-INF/native-image/dk.kvistborg.upload/document-upload/proxy-config.json=META-INF/native-image/dk.kvistborg.upload/document-upload/proxy-config.json' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http/native-image.properties=io.netty:build_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http/native-image.properties=io.netty.handler.codec.http.HttpObjectEncoder:run_time,io.netty.handler.codec.http.websocketx.WebSocket00FrameEncoder:run_time,io.netty.handler.codec.http.websocketx.extensions.compression.DeflateDecoder:run_time,io.netty.handler.codec.compression.BrotliDecoder:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar!/META-INF/native-image/io.netty/buffer/native-image.properties=io.netty.buffer.PooledByteBufAllocator:run_time,io.netty.buffer.ByteBufAllocator:run_time,io.netty.buffer.ByteBufUtil:run_time,io.netty.buffer.AbstractReferenceCountedByteBuf:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar!/META-INF/native-image/io.netty/handler/native-image.properties=io.netty.handler.ssl.util.ThreadLocalInsecureRandom:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar!/META-INF/native-image/io.netty/common/native-image.properties=io.netty.util.AbstractReferenceCounted:run_time,io.netty.util.concurrent.GlobalEventExecutor:run_time,io.netty.util.concurrent.ImmediateEventExecutor:run_time,io.netty.util.concurrent.ScheduledFutureTask:run_time,io.netty.util.internal.ThreadLocalRandom:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar!/META-INF/native-image/io.netty/common/native-image.properties=io.netty.util.NetUtilSubstitutions$NetUtilLocalhost4LazyHolder:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar!/META-INF/native-image/io.netty/common/native-image.properties=io.netty.util.NetUtilSubstitutions$NetUtilLocalhost6LazyHolder:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar!/META-INF/native-image/io.netty/common/native-image.properties=io.netty.util.NetUtilSubstitutions$NetUtilLocalhostLazyHolder:run_time' \
+'-H:ReflectionConfigurationResources@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar!/META-INF/native-image/io.netty/transport/native-image.properties=META-INF/native-image/io.netty/transport/reflection-config.json' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-core/native-image.properties=org.springframework.aot.graalvm.ThrowawayClassLoader:build_time,org.springframework.util.ClassUtils:build_time,org.springframework.util.ConcurrentReferenceHashMap:build_time,org.springframework.util.MimeType:build_time,org.springframework.util.MimeTypeUtils:build_time' \
+'-H:AddExports@jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-core/native-image.properties=org.graalvm.nativeimage.builder/com.oracle.svm.hosted=ALL-UNNAMED' \
+'-H:AddExports@jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-core/native-image.properties=jdk.internal.vm.compiler/org.graalvm.compiler.debug=ALL-UNNAMED' \
+'-H:AddExports@jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-core/native-image.properties=jdk.internal.vm.ci/jdk.vm.ci.meta=ALL-UNNAMED' \
+'-H:AddExports@jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-core/native-image.properties=org.graalvm.nativeimage.builder/com.oracle.svm.core.meta=ALL-UNNAMED' \
+'-H:ReflectionConfigurationResources@jar:file:///Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar!/META-INF/native-image/io.micrometer/micrometer-core/native-image.properties=META-INF/native-image/io.micrometer/micrometer-core/reflect-config.json' \
+'-H:ReflectionConfigurationResources@jar:file:///Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar!/META-INF/native-image/io.micrometer/micrometer-core/reflect-config.json=META-INF/native-image/io.micrometer/micrometer-core/reflect-config.json' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar!/META-INF/native-image/io.netty/resolver-dns/native-image.properties=io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar!/META-INF/native-image/io.netty/resolver-dns/native-image.properties=io.netty.resolver.dns.DnsServerAddressStreamProviders$DefaultProviderHolder:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar!/META-INF/native-image/io.netty/resolver-dns/native-image.properties=io.netty.resolver.dns.DnsNameResolver:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar!/META-INF/native-image/io.netty/resolver-dns/native-image.properties=io.netty.resolver.HostsFileEntriesResolver:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http2/native-image.properties=io.netty:build_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar!/META-INF/native-image/io.netty/codec-http2/native-image.properties=io.netty.handler.codec.http2.Http2CodecUtil:run_time,io.netty.handler.codec.http2.Http2ClientUpgradeCodec:run_time,io.netty.handler.codec.http2.Http2ConnectionHandler:run_time,io.netty.handler.codec.http2.DefaultHttp2FrameWriter:run_time' \
+'-H:ClassInitialization@jar:file:///Users/ukv001/.m2/repository/org/springframework/spring-web/6.0.0-M5/spring-web-6.0.0-M5.jar!/META-INF/native-image/org.springframework/spring-web/native-image.properties=org.springframework.http.HttpStatus:build_time,org.springframework.http.MediaType:build_time' \
+-H:FallbackThreshold=0 \
+-H:Path=/Users/ukv001/repos/document-upload/target \
+-H:Name=document-upload \
+-H:ConfigurationFileDirectories=/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/org.hdrhistogram/HdrHistogram/2.1.12,/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/io.netty/netty-transport/4.1.76.Final,/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/ch.qos.logback/logback-classic/1.2.11 \
+-H:ClassInitialization=ch.qos.logback.classic.Logger:build_time,ch.qos.logback.classic.Level:build_time,ch.qos.logback.core.spi.AppenderAttachableImpl:build_time,ch.qos.logback.core.status.InfoStatus:build_time,org.slf4j.LoggerFactory:build_time,org.slf4j.MDC:build_time,ch.qos.logback.core.CoreConstants:build_time,ch.qos.logback.core.util.Loader:build_time,org.slf4j.impl.StaticLoggerBinder:build_time,ch.qos.logback.core.util.StatusPrinter:build_time \
+-H:+ReportExceptionStackTraces \
+-H:TraceObjectInstantiation=java.net.Inet6Address \
+-H:TraceObjectInstantiation=java.net.Inet4Address \
+-H:+DumpTargetInfo
+]
+========================================================================================================================
+GraalVM Native Image: Generating 'document-upload' (executable)...
+========================================================================================================================
+[1/7] Initializing...                                                                                    (9,3s @ 0,30GB)
+ Version info: 'GraalVM 22.2.0 Java 17 CE'
+ Java version info: '17.0.4+8-jvmci-22.2-b06'
+ C compiler: cc (apple, x86_64, 13.1.6)
+ Garbage collector: Serial GC
+ 1 user-specific feature(s)
+ - org.springframework.aot.graalvm.ConstantFieldFeature
+# Printing compilation-target information to: /Users/ukv001/repos/document-upload/target/reports/target_info_20220915_145207.txt
+Field org.springframework.core.NativeDetector#imageCode set to true at build time
+Field org.springframework.core.KotlinDetector#kotlinReflectPresent set to false at build time
+Field org.springframework.web.context.support.StandardServletEnvironment#jndiPresent set to true at build time
+Field org.springframework.format.support.DefaultFormattingConversionService#jsr354Present set to false at build time
+Field org.springframework.core.KotlinDetector#kotlinPresent set to false at build time
+14:52:23.731 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+14:52:23.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+14:52:23.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+14:52:23.733 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+14:52:23.733 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+14:52:23.733 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+14:52:23.734 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+14:52:23.734 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+14:52:23.734 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: unavailable, true, Reflective setAccessible(true) disabled
+14:52:23.734 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5d3ff859
+14:52:23.735 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+14:52:23.736 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+14:52:23.737 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 12218007552 bytes (maybe)
+14:52:23.738 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/x4/80nfv_gx55v602z5t7fg9_q40000gn/T (java.io.tmpdir)
+14:52:23.738 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+14:52:23.738 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+14:52:23.738 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+14:52:23.738 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+14:52:23.738 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+14:52:23.738 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+Field org.springframework.boot.logging.log4j2.Log4J2LoggingSystem$Factory#PRESENT set to false at build time
+Field org.springframework.core.ReactiveAdapterRegistry#reactorPresent set to true at build time
+Field org.springframework.core.ReactiveAdapterRegistry#rxjava3Present set to false at build time
+Field org.springframework.core.ReactiveAdapterRegistry#kotlinCoroutinesPresent set to false at build time
+Field org.springframework.core.ReactiveAdapterRegistry#mutinyPresent set to false at build time
+14:52:27.828 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+14:52:27.828 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+14:52:27.950 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+14:52:27.951 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+14:52:27.995 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+14:52:27.995 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+14:52:28.006 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+14:52:28.006 [ForkJoinPool-2-worker-12] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+14:52:28.035 [ForkJoinPool-2-worker-12] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 70795 (auto-detected)
+14:52:28.102 [ForkJoinPool-2-worker-12] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+Field org.springframework.boot.logging.java.JavaLoggingSystem$Factory#PRESENT set to true at build time
+Field org.springframework.boot.logging.logback.LogbackLoggingSystem$Factory#PRESENT set to true at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jaxb2Present set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jackson2Present set to true at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jackson2XmlPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jackson2SmilePresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#gsonPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#jsonbPresent set to false at build time
+Field org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter#kotlinSerializationJsonPresent set to false at build time
+14:52:31.275 [ForkJoinPool-2-worker-5] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+14:52:31.276 [ForkJoinPool-2-worker-5] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+Field org.springframework.context.annotation.AnnotationConfigUtils#jakartaAnnotationsPresent set to true at build time
+Field org.springframework.context.annotation.AnnotationConfigUtils#jsr250Present set to false at build time
+Field org.springframework.context.annotation.AnnotationConfigUtils#jpaPresent set to false at build time
+Field org.springframework.context.event.ApplicationListenerMethodAdapter#reactiveStreamsPresent set to true at build time
+14:52:32.947 [ForkJoinPool-2-worker-10] DEBUG io.netty.handler.ssl.OpenSsl - netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+Field org.springframework.http.server.reactive.ReactorServerHttpRequest#reactorNettyRequestChannelOperationsIdPresent set to true at build time
+Field org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#jndiPresent set to true at build time
+14:52:34.266 [ForkJoinPool-2-worker-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+14:52:34.267 [ForkJoinPool-2-worker-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+14:52:34.267 [ForkJoinPool-2-worker-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+14:52:34.267 [ForkJoinPool-2-worker-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+Field org.springframework.boot.autoconfigure.web.format.WebConversionService#JSR_354_PRESENT set to false at build time
+14:52:34.635 [ForkJoinPool-2-worker-4] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+Field org.springframework.web.reactive.socket.server.support.HandshakeWebSocketService#tomcatPresent set to false at build time
+Field org.springframework.web.reactive.socket.server.support.HandshakeWebSocketService#jettyPresent set to false at build time
+Field org.springframework.web.reactive.socket.server.support.HandshakeWebSocketService#undertowPresent set to false at build time
+Field org.springframework.web.reactive.socket.server.support.HandshakeWebSocketService#reactorNettyPresent set to true at build time
+14:52:34.931 [ForkJoinPool-2-worker-12] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+14:52:34.931 [ForkJoinPool-2-worker-12] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+Field org.springframework.web.reactive.function.client.DefaultWebClientBuilder#reactorClientPresent set to true at build time
+Field org.springframework.boot.actuate.endpoint.web.annotation.DiscoveredWebOperation#REACTIVE_STREAMS_PRESENT set to true at build time
+Field org.springframework.boot.actuate.endpoint.invoke.reflect.OperationMethodParameter#jsr305Present set to false at build time
+Field org.springframework.boot.actuate.endpoint.invoker.cache.CachingOperationInvoker#IS_REACTOR_PRESENT set to true at build time
+Field org.springframework.web.reactive.function.client.DefaultWebClientBuilder#jettyClientPresent set to false at build time
+Field org.springframework.web.reactive.function.client.DefaultWebClientBuilder#httpComponentsClientPresent set to false at build time
+14:52:36.628 [ForkJoinPool-2-worker-3] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+14:52:37.377 [ForkJoinPool-2-worker-3] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+14:52:37.446 [ForkJoinPool-2-worker-11] DEBUG io.netty.resolver.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+14:52:37.455 [ForkJoinPool-2-worker-11] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.workdir: /var/folders/x4/80nfv_gx55v602z5t7fg9_q40000gn/T (io.netty.tmpdir)
+14:52:37.455 [ForkJoinPool-2-worker-11] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.deleteLibAfterLoading: true
+14:52:37.455 [ForkJoinPool-2-worker-11] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.tryPatchShadedId: true
+14:52:37.456 [ForkJoinPool-2-worker-11] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.detectNativeLibraryDuplicates: true
+14:52:37.613 [ForkJoinPool-2-worker-11] DEBUG io.netty.util.internal.NativeLibraryLoader - Successfully loaded the library /var/folders/x4/80nfv_gx55v602z5t7fg9_q40000gn/T/libnetty_resolver_dns_native_macos_x86_6410931449942384023389.dylib
+14:52:37.641 [ForkJoinPool-2-worker-11] DEBUG io.netty.resolver.dns.DnsServerAddressStreamProviders - io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider: available
+Field org.springframework.http.client.reactive.ReactorClientHttpResponse#reactorNettyRequestChannelOperationsIdPresent set to true at build time
+14:52:38.010 [ForkJoinPool-2-worker-3] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+14:52:38.010 [ForkJoinPool-2-worker-3] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+14:52:38.010 [ForkJoinPool-2-worker-3] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@477d5d67
+14:52:38.735 [ForkJoinPool-2-worker-6] DEBUG io.netty.handler.codec.compression.ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: false
+14:52:38.736 [ForkJoinPool-2-worker-6] DEBUG io.netty.handler.codec.compression.ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+14:52:39.047 [ForkJoinPool-2-worker-7] DEBUG io.netty.buffer.AdvancedLeakAwareByteBuf - -Dio.netty.leakDetection.acquireAndReleaseOnly: false
+Field reactor.netty.internal.util.Metrics#isMicrometerAvailable set to true at build time
+[2/7] Performing analysis...  [*]                                                                       (32,4s @ 4,13GB)
+  14.447 (92,37%) of 15.641 classes reachable
+  20.403 (63,56%) of 32.099 fields reachable
+  64.855 (68,81%) of 94.256 methods reachable
+     843 classes,   133 fields, and 2.355 methods registered for reflection
+       1 native library: -framework CoreServices
+
+------------------------------------------------------------------------------------------------------------------------
+                        1,7s (4,0% of total time) in 20 GCs | Peak RSS: 5,39GB | CPU load: 7,01
+========================================================================================================================
+Failed generating 'document-upload' after 41,9s.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  52.346 s
+[INFO] Finished at: 2022-09-15T14:52:40+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.graalvm.buildtools:native-maven-plugin:0.9.13:build (build-native) on project document-upload: Execution of /Users/ukv001/Library/Java/JavaVirtualMachines/graalvm-ce-17/Contents/Home/bin/native-image -cp /Users/ukv001/repos/document-upload/target/document-upload-1.0.0-SNAPSHOT.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.18.0/log4j-to-slf4j-2.18.0.jar:/Users/ukv001/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-commons/1.10.0-M3/micrometer-commons-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.0-M4/spring-boot-starter-logging-3.0.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.1.0-M4/reactor-netty-http-1.1.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.0.0-M4/spring-boot-starter-reactor-netty-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/springframework/spring-aop/6.0.0-M5/spring-aop-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot/3.0.0-M4/spring-boot-3.0.0-M4.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.0-M4/spring-boot-starter-json-3.0.0-M4.jar:/Users/ukv001/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar:/Users/ukv001/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.1.0-M4/reactor-netty-core-1.1.0-M4.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-dns/4.1.79.Final/netty-codec-dns-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-expression/6.0.0-M5/spring-expression-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/projectreactor/reactor-core/3.5.0-M4/reactor-core-3.5.0-M4.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-observation/1.10.0-M3/micrometer-observation-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-jcl/6.0.0-M5/spring-jcl-6.0.0-M5.jar:/Users/ukv001/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/Users/ukv001/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-socks/4.1.79.Final/netty-codec-socks-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-context/6.0.0-M5/spring-context-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/springframework/spring-core/6.0.0-M5/spring-core-6.0.0-M5.jar:/Users/ukv001/.m2/repository/io/micrometer/micrometer-core/1.10.0-M3/micrometer-core-1.10.0-M3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.0.0-M4/spring-boot-actuator-autoconfigure-3.0.0-M4.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar:/Users/ukv001/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.79.Final/netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.0.0-M4/spring-boot-starter-actuator-3.0.0-M4.jar:/Users/ukv001/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.0-M4/spring-boot-autoconfigure-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.0.0-M4/spring-boot-starter-webflux-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-actuator/3.0.0-M4/spring-boot-actuator-3.0.0-M4.jar:/Users/ukv001/.m2/repository/io/micrometer/context-propagation/1.0.0-M3/context-propagation-1.0.0-M3.jar:/Users/ukv001/.m2/repository/io/netty/netty-codec-http2/4.1.79.Final/netty-codec-http2-4.1.79.Final.jar:/Users/ukv001/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/ukv001/.m2/repository/org/springframework/spring-webflux/6.0.0-M5/spring-webflux-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.0-M4/spring-boot-starter-3.0.0-M4.jar:/Users/ukv001/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/ukv001/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar:/Users/ukv001/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-web/6.0.0-M5/spring-web-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/ukv001/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/ukv001/.m2/repository/org/springframework/spring-beans/6.0.0-M5/spring-beans-6.0.0-M5.jar:/Users/ukv001/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar --no-fallback -H:Path=/Users/ukv001/repos/document-upload/target -H:Name=document-upload -H:ConfigurationFileDirectories=/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/org.hdrhistogram/HdrHistogram/2.1.12,/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/io.netty/netty-transport/4.1.76.Final,/Users/ukv001/repos/document-upload/target/graalvm-reachability-metadata/a462ca59324c82ddb3350ceb29960f1ac311e442/ch.qos.logback/logback-classic/1.2.11 --initialize-at-build-time=ch.qos.logback.classic.Logger,ch.qos.logback.classic.Level,ch.qos.logback.core.spi.AppenderAttachableImpl,ch.qos.logback.core.status.InfoStatus,org.slf4j.LoggerFactory,org.slf4j.MDC,ch.qos.logback.core.CoreConstants,ch.qos.logback.core.util.Loader,org.slf4j.impl.StaticLoggerBinder,ch.qos.logback.core.util.StatusPrinter -H:+ReportExceptionStackTraces --trace-object-instantiation=java.net.Inet6Address --trace-object-instantiation=java.net.Inet4Address --native-image-info --verbose returned non-zero result -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

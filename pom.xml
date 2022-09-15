@@ -155,9 +155,10 @@
 							<buildArgs>
 								<buildArg> --initialize-at-build-time=ch.qos.logback.classic.Logger,ch.qos.logback.classic.Level,ch.qos.logback.core.spi.AppenderAttachableImpl,ch.qos.logback.core.status.InfoStatus,org.slf4j.LoggerFactory,org.slf4j.MDC,ch.qos.logback.core.CoreConstants,ch.qos.logback.core.util.Loader,org.slf4j.impl.StaticLoggerBinder,ch.qos.logback.core.util.StatusPrinter</buildArg>
 								<buildArg>-H:+ReportExceptionStackTraces</buildArg>
-								<buildArg>--trace-object-instantiation=java.net.Inet4Address</buildArg>
 								<buildArg>--trace-object-instantiation=java.net.Inet6Address</buildArg>
 								<buildArg>--trace-object-instantiation=java.net.Inet4Address</buildArg>
+								<buildArg>--native-image-info</buildArg>
+								<buildArg>--verbose</buildArg>
 							</buildArgs>
 							<!-- ...,java.net.Inet4Address,java.net.InetAddress
 							,java.net.Inet6Address
