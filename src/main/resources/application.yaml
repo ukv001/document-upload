@@ -1,0 +1,27 @@
+TOKEN:
+PROPERTIES: '{"type":"file"}'
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+application:
+  host: https://something.com
+  path: /disarmer/
+  token: ${TOKEN}
+  properties: ${PROPERTIES}
+
+management:
+  health:
+  endpoint:
+    prometheus:
+      enabled: true
+    health:
+      show-details: always
+      probes:
+        enabled: true
+      group:
+        readiness:
+          include: "readinessState,diskSpace,ping"
+
